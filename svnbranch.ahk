@@ -6,7 +6,7 @@
 ;configfile=launcherconfig.txt
 appheadline=SVN Branch tool
 
-;TrayTip, svnbranch, Running svnbranch, 4, 1
+TrayTip, svnbranch, Running svnbranch - hit Win+B to open, 4, 1
 
 ; Menu, Tray, Icon, moolder-minifig.ico
 
@@ -20,7 +20,7 @@ Gui, Add, Edit, vMessage hp w500 gStoreControlData, %Message%
 
 Gui, Add, Button, default, OK  ; The label ButtonOK (if it exists) will be run when the button is pressed.
 
-Gui, Show,, %appheadline%
+; Gui, Show,, %appheadline%
 
 return
 
